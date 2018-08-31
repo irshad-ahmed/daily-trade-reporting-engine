@@ -27,7 +27,7 @@ public class Application {
 	/*
 	 * Sample Data
 	 */
-	private static final List<Instruction> instructionList = Arrays.asList(
+	private static List<Instruction> instructionList = Arrays.asList(
 			new Instruction("foo", BuyOrSell.BUY, new BigDecimal("0.50"), "SGP", LocalDate.now(), LocalDate.now(),
 					new Double(200), new BigDecimal("100.25")),
 			new Instruction("bar", BuyOrSell.SELL, new BigDecimal("0.22"), "AED", LocalDate.now(), LocalDate.now(),
@@ -50,6 +50,7 @@ public class Application {
 	public void generateRankingEntitiesBasedOnAmountReport() {
 		System.out.println("============================================== Entity Ranking Report =============================================================== ");
 		System.out.println("Entity\tBuyOrSell\tAgreedFx\tCurrency\tInstruction Date\tSettlement Date\tUnits\tUnit Price\tUSD Amount");
+		instructionList = TradeReports.sortInstructionsBasedOnUSDAmount(instructionList);
 		instructionList.forEach(System.out::println);
 		System.out.println("============================================== End of Report ======================================================================= ");
 	}
