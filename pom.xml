@@ -2,7 +2,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.jpmc.techtest.reporting</groupId>
+	<groupId>trade.reporting</groupId>
 	<artifactId>daily-trade-reporting-engine</artifactId>
 	<version>0.0.1</version>
 
@@ -30,7 +30,7 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<mainClass>com.jpmc.techtest.reporting.Application</mainClass>
+							<mainClass>trade.reporting.Application</mainClass>
 						</manifest>
 					</archive>
 				</configuration>

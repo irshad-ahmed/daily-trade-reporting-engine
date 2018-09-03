@@ -1,4 +1,4 @@
-package com.jpmc.techtest.reporting.constants;
+package trade.reporting.constants;
 
 /*
  * Enum to store constants BUY or SELL

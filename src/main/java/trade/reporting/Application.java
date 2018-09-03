@@ -1,4 +1,4 @@
-package com.jpmc.techtest.reporting;
+package trade.reporting;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -7,10 +7,10 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
-import com.jpmc.techtest.reporting.constants.TransactionType;
-import com.jpmc.techtest.reporting.grouping.TransactionTypeAndSettlementDate;
-import com.jpmc.techtest.reporting.model.Instruction;
-import com.jpmc.techtest.reporting.service.TradeReportService;
+import trade.reporting.constants.TransactionType;
+import trade.reporting.model.Instruction;
+import trade.reporting.model.TransactionTypeAndSettlementDate;
+import trade.reporting.service.TradeReportService;
 
 /*
  * This class displays reports of 
@@ -68,7 +68,6 @@ public class Application {
 	 * Displays ranking of entities based on Incoming and Outgoing amount in tabular
 	 * format.
 	 */
-
 	public void displayRankingEntitiesBasedOnAmountReport() {
 		System.out.println(
 				"============================================== Entity Ranking Report =============================================================== ");

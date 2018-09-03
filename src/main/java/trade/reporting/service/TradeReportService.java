@@ -1,12 +1,12 @@
-package com.jpmc.techtest.reporting.service;
+package trade.reporting.service;
 
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import com.jpmc.techtest.reporting.grouping.TransactionTypeAndSettlementDate;
-import com.jpmc.techtest.reporting.model.Instruction;
+import trade.reporting.model.Instruction;
+import trade.reporting.model.TransactionTypeAndSettlementDate;
 
 /*
  * This class is used to generate the below reports

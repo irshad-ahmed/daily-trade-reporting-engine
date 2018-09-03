@@ -1,10 +1,10 @@
-package com.jpmc.techtest.reporting.model;
+package trade.reporting.model;
 
 import java.math.BigDecimal;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 
-import com.jpmc.techtest.reporting.constants.TransactionType;
+import trade.reporting.constants.TransactionType;
 
 /*
  * This class holds the data required for executing the Trading Instruction.

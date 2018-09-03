@@ -1,13 +1,13 @@
-package com.jpmc.techtest.reporting.model;
+package trade.reporting.model;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.Month;
 import org.junit.Test;
-import com.jpmc.techtest.reporting.constants.TransactionType;
-import com.jpmc.techtest.reporting.model.Instruction;
 
 import junit.framework.Assert;
+import trade.reporting.constants.TransactionType;
+import trade.reporting.model.Instruction;
 
 public class InstructionTest {
 

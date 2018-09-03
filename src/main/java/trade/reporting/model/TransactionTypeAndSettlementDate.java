@@ -1,8 +1,8 @@
-package com.jpmc.techtest.reporting.grouping;
+package trade.reporting.model;
 
 import java.time.LocalDate;
 
-import com.jpmc.techtest.reporting.constants.TransactionType;
+import trade.reporting.constants.TransactionType;
 
 /*
  * This class is used for grouping {link @Instruction} based TransactionType and SettlementDate.
